@@ -28,7 +28,7 @@
   </div>
 {/block}
 
-{block name='header_nav'}
+<!-- {block name='header_nav'}
   <nav class="header-nav">
     <div class="container">
       <div class="row">
@@ -52,7 +52,7 @@
       </div>
     </div>
   </nav>
-{/block}
+{/block} -->
 
 {block name='header_top'}
   <div class="header-top">
