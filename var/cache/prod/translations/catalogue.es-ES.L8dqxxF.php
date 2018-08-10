@@ -3,7 +3,7 @@
 use Symfony\Component\Translation\MessageCatalogue;
 
 $catalogue = new MessageCatalogue('es-ES', array (
-  'AdminActions' =>
+  'AdminActions' => 
   array (
     'Choose language:' => 'Selecciona el idioma:',
     'Collapse All' => 'Contraer todas',
@@ -92,7 +92,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Print out' => 'Imprimir',
     'Filter' => 'Filtrar',
   ),
-  'AdminAdvparametersFeature' =>
+  'AdminAdvparametersFeature' => 
   array (
     'SuperAdmin' => 'SuperAdmin',
     'Logistician' => 'Encargado de logística',
@@ -441,7 +441,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Sign out from PrestaShop Addons' => 'Salir de PrestaShop Addons',
     'Sign in' => 'Iniciar sesión',
   ),
-  'AdminAdvparametersHelp' =>
+  'AdminAdvparametersHelp' => 
   array (
     'Ignore this field if you don\'t use the Multistore tool. If you leave this field empty, the default shop will be used.' => 'Ignora este campo si no utilizas la herramienta Multitienda. Si dejas este campo vacío, se usará la tienda predeterminada.',
     'Enable Advanced Stock Management on product (0 = No, 1 = Yes)' => 'Activar Administración Avanzada de Stock en el producto (0 = No, 1 = Sí)',
@@ -548,7 +548,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Click on the "Go" button and please wait patiently for the import process to conclude. This may take several minutes.' => 'Haz clic en el botón "Ir" y espera a que el proceso de importación concluya. Esto puede tomar varios minutos.',
     'How to restore a database backup in 10 easy steps' => 'Cómo restaurar una copia de seguridad de la base de datos en 10 sencillos pasos',
   ),
-  'AdminAdvparametersNotification' =>
+  'AdminAdvparametersNotification' => 
   array (
     '"Backup" directory does not exist.' => 'El directorio "backup" no existe.',
     'Error deleting' => 'Error al eliminar',
@@ -764,7 +764,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Please choose a MySQL table' => 'Por favor, selecciona una tabla MySQL',
     'This SQL query has no result.' => 'Esta consulta SQL no tiene resultados.',
   ),
-  'AdminCatalogFeature' =>
+  'AdminCatalogFeature' => 
   array (
     'Root' => 'Raíz',
     'Home' => 'Inicio',
@@ -1210,7 +1210,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Add condition' => 'Añadir condición',
     'Condition group' => 'Condición de grupo',
   ),
-  'AdminCatalogHelp' =>
+  'AdminCatalogHelp' => 
   array (
     'Upload a brand logo from your computer.' => 'Subir un logotipo de la marca desde tu ordenador.',
     'To add "tags," click inside the field, write something, and then press "Enter."' => 'Para agregar "etiquetas", haga clic en el campo, escriba la etiqueta y por último presione "Enter"',
@@ -1295,7 +1295,7 @@ $catalogue = new MessageCatalogue('es-ES', array (
     'Save and go back to the catalog: ALT+SHIFT+Q' => 'Guardar y regresar al catálogo: ALT+SHIFT+Q',
     'Save and create a new product: ALT+SHIFT+P' => 'Guardar y crear un nuevo producto: ALT+SHIFT+P',
     'Save the product and stay on the current page: ALT+SHIFT+S' => 'Guardar el producto y permanecer en la página actual: ALT+SHIFT+S',
-    'Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page\'s URL. Disabled categories are written in italics.' => 'En tu web, ¿dónde debe estar disponible el producto? La categoría principal es donde aparece el producto por defecto: esta es la categoría que se ve en la URL de la página de producto.
+    'Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page\'s URL. Disabled categories are written in italics.' => 'En tu web, ¿dónde debe estar disponible el producto? La categoría principal es donde aparece el producto por defecto: esta es la categoría que se ve en la URL de la página de producto. 
 Las categorías desactivadas se muestran en cursiva.',
     'Search categories' => 'Buscar categorías',
     'If you want to quickly create a new category, you can do it here. Don’t forget to then go to the Categories page to fill in the needed details (description, image, etc.).  A new category will not automatically appear in your shop\'s menu, please read the Help about it.' => 'Si quieres crear una nueva categoría rápidamente, puedes hacerlo desde aquí. No te olvides de ir a la página Categorías para rellenar los detalles necesarios (descripción, imagen, etc.). Una nueva categoría no aparecerá automáticamente en el menú de tu tienda, por favor, lea la Ayuda para obtener más información sobre esto.',
@@ -1354,7 +1354,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'If you want a category to appear in the menu of your shop, go to [1]Modules > Modules & Services > Installed modules.[/1] Then, configure your menu module.' => 'Si quieres que aparezca una categoría en el menú de tu tienda, dirígete [1]Modules > Modules & Services > Installed modules.[/1] A continuación, configura tu módulo de menú.',
     'Recommended dimensions (for the default theme): %1spx x %2spx' => 'Dimensiones recomendadas (para el tema predeterminado): %1spx x %2spx',
   ),
-  'AdminCatalogNotification' =>
+  'AdminCatalogNotification' => 
   array (
     'You cannot set a negative position, the minimum for a position is 0.' => 'No puedes establecer una posición negativa, la posición mínima es 0.',
     'You cannot set a position greater than the total number of products in the category, minus 1 (position numbering starts at 0).' => 'No puedes establecer una posición mayor al número total de productos en la categoría menos 1 (el número de posición comienza en 0).',
@@ -1523,7 +1523,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'I want to remove the products which are listed only within this category and no others.' => 'Quiero asociar los productos que están listados en esta categoría y no los demás.',
     'Deleting this category will remove products linked only within this category and no others. Are you sure you want to continue?' => 'Eliminando esta categoría eliminarás los productos vinculados sólo dentro de esta categoría y no otros. ¿Estás seguro de que quieres continuar?',
   ),
-  'AdminDashboardFeature' =>
+  'AdminDashboardFeature' => 
   array (
     'Dashboard' => 'Inicio',
     'Demo mode' => 'Modo demo',
@@ -1546,7 +1546,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Report issues in the Bug Tracker' => 'Reportar incidencias en el Bug Tracker',
     'Contact Us!' => '¡Contáctenos!',
   ),
-  'AdminDashboardHelp' =>
+  'AdminDashboardHelp' => 
   array (
     'This mode displays sample data so you can try your dashboard without real numbers.' => 'Este modo muestra datos de ejemplo para que puedas probar el panel de control de tu tienda sin introducir datos reales.',
     'Choose a fixed fee for each order placed in %currency% with %module%.' => 'Elige una tarifa fija para cada pedido realizado en %currency% con %module%.',
@@ -1559,14 +1559,14 @@ Las categorías desactivadas se muestran en cursiva.',
     'You should calculate this percentage as follows: ((total sales revenue) - (cost of goods sold)) / (total sales revenue) * 100. This value is only used to calculate the Dashboard approximate gross margin, if you do not specify the wholesale price for each product.' => 'Debes calcular este porcentaje de la siguiente manera: ((ingreso total por ventas) - (coste de bienes vendidos)) / (ingreso total por ventas) * 100. Este valor sólo se utiliza para calcular el margen bruto aproximado, en caso de que no especifiques el Precio al por mayor para cada producto.',
     'You should calculate this value by making the sum of all of your additional costs per order.' => 'Debes calcular este valor haciendo la suma de todos tus costes adicionales por pedido.',
   ),
-  'AdminDashboardNotification' =>
+  'AdminDashboardNotification' => 
   array (
     'You are currently connected under the following domain name:' => 'En este momento estás conectado bajo el siguiente nombre de dominio:',
     'This is different from the shop domain name set in the Multistore settings: "%s".' => 'Este es diferente del nombre de dominio establecido en los ajustes "Multitienda": "%s".',
     'If this is your main domain, please {link}change it now{/link}.' => 'Si este es tu dominio principal, por favor {link}cámbialo ahora{/link}.',
     'This is different from the domain name set in the "SEO & URLs" tab.' => 'Este es diferente del nombre de dominio establecido en la pestaña: "SEO y URLs".',
   ),
-  'AdminDesignFeature' =>
+  'AdminDesignFeature' => 
   array (
     'Full width' => 'Anchura total',
     'Three columns' => 'Tres columnas',
@@ -1652,7 +1652,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Select a format' => 'Seleccionar formato',
     'Erase previous images' => 'Eliminar las imágenes anteriores',
   ),
-  'AdminDesignHelp' =>
+  'AdminDesignHelp' => 
   array (
     'To add "tags" click in the field, write something, and then press "Enter."' => 'Para añadir "etiquetas", haz clic en el campo, escribe alguna, y luego presiona "Enter."',
     'Will appear on main page. Recommended size for the default theme: height %height% and width %width%.' => 'Aparecerá en la página principal. Tamaño recomendado para el tema predeterminado: altura %height% y anchura %width%.',
@@ -1701,7 +1701,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Be careful! Manually uploaded thumbnails will be erased and replaced by automatically generated thumbnails.' => '¡Ten cuidado! Las miniaturas subidas manualmente serán eliminadas y reemplazadas por las miniaturas generadas automáticamente.',
     'Select "No" only if your server timed out and you need to resume the regeneration.' => 'Selecciona "No" sólo si se agotó el tiempo de tu servidor y necesitas continuar con la regeneración.',
   ),
-  'AdminDesignNotification' =>
+  'AdminDesignNotification' => 
   array (
     'Current theme is unavailable. Please check your theme\'s directory name ("%s") and permissions.' => 'El tema actual no está disponible. Por favor, revisa el nombre del directorio del tema ("%s") y los permisos.',
     'The uploaded file is too large.' => 'El archivo subido es demasiado grande.',
@@ -1740,7 +1740,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'After moving all of your product images, set the "Use the legacy image filesystem" option above to "No" for best performance.' => 'Después de mover todas las imágenes de tu producto, establece la opción "Usar el sistema de archivos heredado" a "No" para obtener el mejor rendimiento.',
     'Your page will be saved as a draft' => 'Tu página se guardará como borrador',
   ),
-  'AdminGlobal' =>
+  'AdminGlobal' => 
   array (
     'Miscellaneous' => 'Miscelánea',
     'Selected' => 'Seleccionado',
@@ -1859,7 +1859,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Taxes' => 'Impuestos',
     'Message' => 'Mensaje',
     'Tax excluded' => 'Impuestos excluidos',
-    'Tax included' => 'IVA incluido',
+    'Tax included' => 'Impuestos incluidos',
     'Warning' => 'Advertencia',
     'Messages' => 'Mensajes',
     'Edit' => 'Modificar',
@@ -1989,11 +1989,11 @@ Las categorías desactivadas se muestran en cursiva.',
     'Action' => 'Acción',
     'Back' => 'Atrás',
   ),
-  'AdminGlobalError' =>
+  'AdminGlobalError' => 
   array (
     'The value of the PHP.ini setting "max_input_vars" must be increased to %value% in order to be able to submit the product form.' => 'El valor de la configuración PHP.ini "max_input_vars" debe ser incrementado a %value% para poder enviar el formulario del producto.',
   ),
-  'AdminInternationalFeature' =>
+  'AdminInternationalFeature' => 
   array (
     'Rate' => 'Tasa',
     'Tax options' => 'Opciones de impuestos',
@@ -2143,7 +2143,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Export a language' => 'Exportar un idioma',
     'missing' => 'faltante(s)',
   ),
-  'AdminInternationalHelp' =>
+  'AdminInternationalHelp' => 
   array (
     'If you disable the ecotax, the ecotax for all your products will be set to 0.' => 'Si desactivas la ecotasa, el impuesto ecológico para todos los productos se establecerá en 0.',
     'Select whether or not to include tax on purchases.' => 'Selecciona si deseas o no incluir los impuestos en las compras.',
@@ -2227,7 +2227,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Here you can modify translations for all installed module.' => 'Aquí puedes modificar las traducciones de todos los módulos instalados.',
     'Select your module' => 'Selecciona el módulo',
   ),
-  'AdminInternationalNotification' =>
+  'AdminInternationalNotification' => 
   array (
     'Incorrect Tax Manager class [%s]' => 'Clase Tax Manager incorrecta [%s]',
     'Tax Manager class not found [%s]' => 'Clase Tax Manager no encontrada [%s]',
@@ -2365,7 +2365,7 @@ Las categorías desactivadas se muestran en cursiva.',
     '%s at least, or you will have to edit the translation files manually.' => '%s al menos, para que no tengas que editar manualmente los archivos de traducción.',
     'Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations.' => 'Antes de cambiar la moneda predeterminada, te recomendamos que actives el modo mantenimiento. De hecho, cualquier cambio que se produzca en la moneda predeterminada, requiere un ajuste manual del precio de cada producto y sus combinaciones.',
   ),
-  'AdminLoginFeature' =>
+  'AdminLoginFeature' => 
   array (
     'Log in' => 'Iniciar sesión',
     'Stay logged in' => 'Mantener sesión activa',
@@ -2377,7 +2377,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Reset password' => 'Restablecer contraseña',
     'Send reset link' => 'Enviar enlace de restablecimiento de contraseña',
   ),
-  'AdminLoginNotification' =>
+  'AdminLoginNotification' => 
   array (
     'SSL is activated. However, your IP is allowed to enter unsecure mode for maintenance or local IP issues.' => 'SSL está activado. Sin embargo, a tu IP se le permite utilizar el modo no seguro para mantenimiento o incidencias de IP local.',
     'SSL is activated. Please connect using the following link to [1]log in to secure mode (https://)[/1]' => 'SSL está activado. Por favor, conéctese usando el siguiente enlace para [1]identificarte en el modo seguro (https://)[/1]',
@@ -2404,7 +2404,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'renamed the /admin folder (e.g. %s)' => 'renombrado la carpeta /admin (ej.: %s)',
     'Please then access this page by the new URL (e.g. %s)' => 'A continuación, accede a esta página mediante la nueva URL (ej.: %s)',
   ),
-  'AdminModulesFeature' =>
+  'AdminModulesFeature' => 
   array (
     'PrestaShop Addons Marketplace' => 'Marketplace PrestaShop Addons',
     'Exit to PrestaShop Addons Marketplace' => 'Salir a PrestaShop Addons Marketplace',
@@ -2472,7 +2472,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'RTL Module' => 'Módulo RTL',
     'Manage hooks' => 'Configurar los hooks',
   ),
-  'AdminModulesHelp' =>
+  'AdminModulesHelp' => 
   array (
     'Click here to log in.' => 'Haz clic aquí para iniciar sesión.',
     'These modules require your attention: you need to take some action to ensure they are fully operational.' => 'Estos módulos requieren tu atención: necesitas tomar algunas medidas para garantizar su correcto funcionamiento.',
@@ -2493,7 +2493,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'These modules from PrestaShop are preinstalled when you set-up your shop. They cover the basics of e-commerce and comes for free.' => 'Estos módulos de PrestaShop son preinstalados cuando pones en marcha tu tienda. Estos cubren las táreas básicas relacionadas con el comercio electrónico y son gratuitos.',
     'Each theme you install will come with its own set of modules. You’ll find here all the modules related to your active theme.' => 'Cada tema que instales vendrá con su propio conjunto de módulos. Aquí encontrarás todos los módulos relacionados con el tema activo.',
   ),
-  'AdminModulesNotification' =>
+  'AdminModulesNotification' => 
   array (
     'No grid engine selected' => 'Motor de cuadrícula no seleccionado',
     'Grid engine selected is unavailable.' => 'El motor de cuadrícula seleccionado no está disponible.',
@@ -2642,7 +2642,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'No - reset only the parameters' => 'No - restablecer sólo los parámetros',
     'Yes - reset everything' => 'Sí - reiniciar todo',
   ),
-  'AdminNavigationFooter' =>
+  'AdminNavigationFooter' => 
   array (
     'Load time: ' => 'Tiempo de carga: ',
     'Contact' => 'Contacto',
@@ -2653,7 +2653,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Addons' => 'Addons',
     'Training' => 'Formación',
   ),
-  'AdminNavigationHeader' =>
+  'AdminNavigationHeader' => 
   array (
     'Catalog evaluation' => 'Evaluación del catálogo',
     'Home' => 'Inicio',
@@ -2698,7 +2698,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'My PrestaShop account' => 'Mi cuenta PrestaShop',
     'Sign out' => 'Cerrar sesión',
   ),
-  'AdminNavigationMenu' =>
+  'AdminNavigationMenu' => 
   array (
     'Stock' => 'Stock',
     'Sell' => 'Vender',
@@ -2816,7 +2816,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Modules catalog' => 'Catálogo de Módulos',
     'Menu' => 'Menú',
   ),
-  'AdminNavigationNotification' =>
+  'AdminNavigationNotification' => 
   array (
     'Did you check your conversion rate lately?' => '¿Has comprobado recientemente la tasa de conversión?',
     'How about some seasonal discounts?' => '¿Y si incluyes algunos descuentos de temporada?',
@@ -2842,7 +2842,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Your shop is in maintenance.' => 'Tu tienda está en mantenimiento.',
     'Your visitors and customers cannot access your shop while in maintenance mode.%s To manage the maintenance settings, go to Shop Parameters > Maintenance tab.' => 'Tus visitantes y clientes no pueden acceder a tu tienda mientras está en modo mantenimiento. %s Para gestionar los ajustes de mantenimiento dirígete a la pestaña Parámetros de la tienda > Mantenimiento.',
   ),
-  'AdminNavigationSearch' =>
+  'AdminNavigationSearch' => 
   array (
     'There are no results matching your query "%s".' => 'No hay resultados para su búsqueda "%s".',
     '%d results match your query "%s".' => '%d resultados para su búsqueda "%s".',
@@ -2870,7 +2870,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Go to the Forum' => 'Ir al foro',
     '%d result matches your query "%s".' => '%d resultado correspondiente a su búsqueda "%s".',
   ),
-  'AdminNotificationsError' =>
+  'AdminNotificationsError' => 
   array (
     'Image is too large (%1$d kB). Maximum allowed: %2$d kB' => 'Imagen demasiado grande (%1$d kB). Máximo permitido: %2$d kB',
     'Image format not recognized, allowed formats are: .gif, .jpg, .png' => 'Formato de imagen no reconocido, los formatos permitidos son: .gif, .jpg, .png',
@@ -3060,7 +3060,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'There are %d errors.' => 'Hay %d errores.',
     'There is %d error.' => 'Hay %d error.',
   ),
-  'AdminNotificationsInfo' =>
+  'AdminNotificationsInfo' => 
   array (
     'Delete selected item?' => '¿Eliminar el elemento seleccionado?',
     'Delete selected' => 'Eliminar selección',
@@ -3074,7 +3074,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'This field will be modified for all shops in this shop group:' => 'Este campo se modificará para todas tus tiendas en este grupo de tiendas:',
     'This field will be modified for this shop:' => 'Este campo se modificará para esta tienda:',
   ),
-  'AdminNotificationsSuccess' =>
+  'AdminNotificationsSuccess' => 
   array (
     'Successful deletion.' => 'Eliminación correcta.',
     'Successful creation.' => 'Creación correcta.',
@@ -3104,7 +3104,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'Update successful' => 'Actualización correcta',
     'Successful deletion' => 'Eliminación correcta',
   ),
-  'AdminNotificationsWarning' =>
+  'AdminNotificationsWarning' => 
   array (
     'Delete selected items?' => '¿Eliminar los elementos seleccionados?',
     'Are you sure?' => '¿Está seguro?',
@@ -3119,7 +3119,7 @@ Las categorías desactivadas se muestran en cursiva.',
     'PrestaShop was unable to log in to Addons. Please check your credentials and your Internet connection.' => 'PrestaShop no pudo iniciar sesión en Addons. Por favor verifica tus datos de acceso y tu conexión de Internet.',
     'No module has been installed.' => 'No hay módulos instalados',
   ),
-  'AdminOrderscustomersFeature' =>
+  'AdminOrderscustomersFeature' => 
   array (
     'Free order' => 'Pedido gratuito',
     'None' => 'Ninguno',
@@ -3482,7 +3482,7 @@ Saludos',
     'Update Order Status' => 'Actualizar estado del pedido',
     'Download credit slip' => 'Descargar factura por abono',
   ),
-  'AdminOrderscustomersHelp' =>
+  'AdminOrderscustomersHelp' => 
   array (
     'This customer will receive your newsletter via email.' => 'Este cliente recibirá tu boletín de noticias por correo electrónico.',
     'Leave this field blank if there\'s no change.' => 'Dejar este campo en blanco si no hay cambios.',
@@ -3532,7 +3532,7 @@ Saludos',
     'Send an email to the customer with the link to process the payment.' => 'Enviar un correo electrónico al cliente con el enlace para procesar el pago.',
     'Go on payment page to process the payment.' => 'Ir a la página de pago para procesar el pago.',
   ),
-  'AdminOrderscustomersNotification' =>
+  'AdminOrderscustomersNotification' => 
   array (
     'expires on %s.' => 'expira el %s.',
     'downloadable %d time(s)' => 'descargable %d veces',
@@ -3705,7 +3705,7 @@ Saludos',
     'You must add at least one address to process the order.' => 'Debe añadir al menos una dirección para procesar el pedido.',
     'The prices are without taxes.' => 'Los precios no incluyen los impuestos.',
   ),
-  'AdminPaymentFeature' =>
+  'AdminPaymentFeature' => 
   array (
     'Payment preferences' => 'Preferencias de pago',
     'Currency restrictions' => 'Restricciones por moneda',
@@ -3717,7 +3717,7 @@ Saludos',
     'Customer currency' => 'Moneda del cliente',
     'Shop default currency' => 'Moneda predeterminada de la tienda',
   ),
-  'AdminPaymentHelp' =>
+  'AdminPaymentHelp' => 
   array (
     'Please mark each checkbox for the currency, or currencies, for which you want the payment module(s) to be available.' => 'Por favor, marca cada casilla de verificación de la moneda o monedas para las que quieres que el (los) módulo(s) de pago esté(n) disponible(s).',
     'Please mark each checkbox for the customer group(s), for which you want the payment module(s) to be available.' => 'Por favor, marca cada grupo de clientes para el cual quieres que esté disponible el/los módulos de pago.',
@@ -3728,7 +3728,7 @@ Saludos',
     'If it is not checked then this means that the payment module is disabled.' => 'Si no está marcado significa que el módulo de pago está desactivado.',
     'Please make sure to click Save for each section.' => 'Por favor, asegúrate de hacer clic en Guardar para cada sección.',
   ),
-  'AdminPaymentNotification' =>
+  'AdminPaymentNotification' => 
   array (
     'No currency mode for payment module' => 'Ninguna moneda para el módulo de pago',
     'The cart rule named "%1s" (ID %2s) used in this cart is not valid and has been withdrawn from cart' => 'La regla de carrito denominada "%1s" (ID %2s) usada en este carrito no es válida y ha sido retirada del carrito',
@@ -3741,7 +3741,7 @@ Saludos',
     'You have more than one shop and must select one to configure payment.' => 'Tienes activado el modo multitienda. Debes seleccionar una tienda para configurar el pago.',
     'No payment module installed' => 'No hay ningún módulo de pago instalado',
   ),
-  'AdminShippingFeature' =>
+  'AdminShippingFeature' => 
   array (
     'Pick up in-store' => 'Recoger en tienda',
     'Delivery next day!' => '¡Envío en 24h!',
@@ -3810,7 +3810,7 @@ Saludos',
     'Finally, this carrier will be proposed in those shops:' => 'Finalmente, este transportista estará disponible para las siguientes tiendas:',
     'Shipping cost' => 'Costo de envío',
   ),
-  'AdminShippingHelp' =>
+  'AdminShippingHelp' => 
   array (
     'Allowed characters: letters, spaces and "%special_chars%".' => 'Caracteres permitidos: letras, espacios y "%special_chars%".',
     'For in-store pickup, enter 0 to replace the carrier name with your shop name.' => 'Para la recogida en tienda, introduce 0 para reemplazar el nombre del transportista por el nombre de tu tienda.',
@@ -3857,7 +3857,7 @@ Saludos',
     'If there is no existing module for your carrier, then you can register that carrier by hand using the information that it can provide you: shipping rates, regional zones, size and weight limits, etc. Click on the "Add new carrier" button below to open the Carrier Wizard, which will help you register a new carrier in a few steps.' => 'Si no existe ningún módulo para tu transportista, entonces puedes crear dicho transportista manualmente utilizando la información proporcionada por el mismo: las tarifas de transporte, las zonas regionales, el tamaño y los límites de peso, etc. Haz clic en el botón de abajo "Añadir nuevo transportista" para abrir el Asistente para Transportistas, que te ayudará a crear un transportista en unos pocos pasos.',
     'Note: DO NOT register a new carrier if there already exists a module for it! Using a module will be much faster and more accurate!' => 'Nota: ¡NO registres un nuevo transportista si ya existe un módulo para ello! ¡El uso de un módulo será mucho más rápido y preciso!',
   ),
-  'AdminShippingNotification' =>
+  'AdminShippingNotification' => 
   array (
     'You do not have permission to use this wizard.' => 'No tienes permiso para utilizar este asistente.',
     'You must choose at least one shop or group shop.' => 'Debes elegir al menos una tienda o grupo de tiendas.',
@@ -3879,7 +3879,7 @@ Saludos',
     'Ranges are overlapping' => 'Los rangos se superponen',
     'Please select at least one zone' => 'Por favor, selecciones al menos una zona',
   ),
-  'AdminShopparametersFeature' =>
+  'AdminShopparametersFeature' => 
   array (
     'In Stock' => 'En stock',
     'Product available for orders' => 'Producto disponible para pedidos',
@@ -4186,7 +4186,7 @@ Gracias por su paciencia.',
     'Statistics' => 'Estadísticas',
     'Filter by product:' => 'Filtrar por producto:',
   ),
-  'AdminShopparametersHelp' =>
+  'AdminShopparametersHelp' => 
   array (
     'Enable this option only if your server allows URL rewriting (recommended).' => 'Activa esta opción si tu servidor acepta la reescritura URL (recomendado).',
     'URL rewriting (mod_rewrite) is not active on your server, or it is not possible to check your server configuration. If you want to use Friendly URLs, you must activate this mod.' => 'La reescritura URL (mod_rewrite) no está activa en tu servidor o no es posible comprobar la configuración del servidor. Si deseas usar URLs amigables debes activar este módulo.',
@@ -4327,7 +4327,7 @@ Gracias por su paciencia.',
     'Take a look at MySQL\'s documentation for more details.' => 'Echa un vistazo a la documentación de MySQL para obtener mayor información.',
     'Get help!' => '¡Obtener ayuda!',
   ),
-  'AdminShopparametersNotification' =>
+  'AdminShopparametersNotification' => 
   array (
     'Before you can use this tool, you need to:' => 'Antes de poder utilizar esta herramienta, necesitas:',
     '1) Create a blank .htaccess file in your root directory.' => '1) Crear un archivo .htaccess en blanco en el directorio raíz.',
@@ -4374,7 +4374,7 @@ Gracias por su paciencia.',
     'Only products that have this category as the default category will be affected.' => 'Sólo los productos que tienen esta categoría como categoría predeterminada se verán afectados.',
     'The module \'%s\' must be activated and configurated in order to have all the statistics' => 'Para que todas las estadísticas estén disponibles, el módulo \'%s\' debe estar activado y configurado',
   ),
-  'AdminStatsFeature' =>
+  'AdminStatsFeature' => 
   array (
     '%value%% of your Catalog' => '%value% de tu Catálogo',
     'No customers' => 'Ningún cliente',
@@ -4388,20 +4388,20 @@ Gracias por su paciencia.',
     'No category' => 'No hay categorías',
     'Stats' => 'Estadísticas',
   ),
-  'AdminStatsHelp' =>
+  'AdminStatsHelp' => 
   array (
     '%value% of your products for sale are out of stock.' => '%value% de tus productos a la venta que se encuentran fuera de stock.',
     'Gross margin expressed in percentage assesses how cost-effectively you sell your goods. Out of $100, you will retain $%value% to cover profit and expenses.' => 'El margen bruto expresado en porcentaje evalúa la rentabilidad con la que vendes tus bienes. De $100, retendrá $%value% para cubrir los beneficios y gastos.',
     '%value% of your products are disabled and not visible to your customers' => '%value% de tus productos que están desactivados y no son visibles por tus clientes',
     'Within your catalog, %value% of your products have had sales in the last 30 days' => 'Dentro de tu catálogo, %value% de tus productos que han tenido ventas en los últimos 30 días',
   ),
-  'AdminStatsNotification' =>
+  'AdminStatsNotification' => 
   array (
     'The specified date is invalid.' => 'Fecha especificada no válida.',
     'Module not found' => 'Módulo no encontrado',
     'Please select a module from the left column.' => 'Por favor, selecciona un módulo de la columna izquierda.',
   ),
-  'EmailsBody' =>
+  'EmailsBody' => 
   array (
     'Hi {firstname} {lastname},' => 'Hola {firstname} {lastname},',
     'Here is the code of your voucher:' => 'Aquí está el código de su cupón de descuento:',
@@ -4581,7 +4581,7 @@ Gracias por su paciencia.',
     'Thank you for subscribing to our newsletter, please confirm your request by clicking the link below :' => 'Gracias por suscribirse a nuestro boletín de noticias. Por favor, confirme su solicitud haciendo clic en el siguiente enlace:',
     'Thank you for subscribing to our newsletter.' => 'Gracias por suscribirse a nuestro boletín de noticias.',
   ),
-  'EmailsSubject' =>
+  'EmailsSubject' => 
   array (
     'Package in transit' => 'Pedido en tránsito',
     'The virtual product that you bought is available for download' => 'El producto virtual que ha comprado está disponible para descargar',
@@ -4608,7 +4608,7 @@ Gracias por su paciencia.',
     'An answer to your message is available #ct%thread_id% #tc%thread_token%' => 'Hay una respuesta disponible a su mensaje #ct%thread_id% #tc%thread_token%',
     'Message from a customer' => 'Mensaje de un cliente',
   ),
-  'Install' =>
+  'Install' => 
   array (
     'Choose your language' => 'Selección de idioma',
     'License agreements' => 'Acuerdos de licencia',
@@ -4839,7 +4839,7 @@ Gracias por su paciencia.',
     'Warning detected during upgrade.' => 'Advertencia detectada durante la actualización.',
     'Error detected during upgrade.' => 'Error detectado durante la actualización.',
   ),
-  'ModulesAdvertisingAdmin' =>
+  'ModulesAdvertisingAdmin' => 
   array (
     'Advertising block' => 'Bloque de Publicidad',
     'Adds an advertisement block to selected sections of your e-commerce website.' => 'Añade un bloque de publicidad en las secciones seleccionadas de tu sitio web e-commerce.',
@@ -4853,7 +4853,7 @@ Gracias por su paciencia.',
     'Display in the left column' => 'Mostrar en la columna izquierda',
     'Display in the right column' => 'Mostrar en la columna derecha',
   ),
-  'ModulesAutoupgradeAdmin' =>
+  'ModulesAutoupgradeAdmin' => 
   array (
     'Selection successfully deleted' => 'Selección eliminada correctamente',
     'The new version check has been completed successfully' => 'La comprobación de la nueva versión se ha completado correctamente',
@@ -5284,7 +5284,7 @@ Gracias por su paciencia.',
     'Unable to create the directory "%s"' => 'No se puede crear el directorio "%s"',
     'Unable to copy ajax-upgradetab.php in %s' => 'No se puede copiar ajax-upgradetab.php en %s',
   ),
-  'ModulesBannerAdmin' =>
+  'ModulesBannerAdmin' => 
   array (
     'Banner' => 'Banner',
     'Displays a banner on your shop.' => 'Muestra un banner en tu tienda.',
@@ -5295,23 +5295,23 @@ Gracias por su paciencia.',
     'Banner description' => 'Descripción del banner',
     'Please enter a short but meaningful description for the banner.' => 'Por favor, introduce una descripción breve pero significativa para el banner.',
   ),
-  'ModulesBannerShop' =>
+  'ModulesBannerShop' => 
   array (
     'Choose a file' => 'Selecciona un archivo',
   ),
-  'ModulesBestsellersAdmin' =>
+  'ModulesBestsellersAdmin' => 
   array (
     'Top-sellers block' => 'Bloque Más vendidos',
     'Adds a block displaying your store\'s top-selling products.' => 'Añade un bloque que muestra los productos más vendidos de tu tienda.',
     'Products to display' => 'Productos a mostrar',
     'Determine the number of product to display in this block' => 'Determina el número de productos a mostrar en este bloque',
   ),
-  'ModulesBestsellersShop' =>
+  'ModulesBestsellersShop' => 
   array (
     'Best Sellers' => 'Los más vendidos',
     'All best sellers' => 'Los productos más vendidos',
   ),
-  'ModulesBlockreassuranceAdmin' =>
+  'ModulesBlockreassuranceAdmin' => 
   array (
     'Customer reassurance' => 'Información de seguridad y confianza para el cliente',
     'Adds an information block aimed at offering helpful information to reassure customers that your store is trustworthy.' => 'Añade un bloque destinado a ofrecer información útil para tranquilizar al cliente que su tienda es segura y de confianza.',
@@ -5319,13 +5319,13 @@ Gracias por su paciencia.',
     'New reassurance block' => 'Nuevo bloque de confianza y seguridad',
     'ID Shop' => 'ID de la tienda',
   ),
-  'ModulesBlockreassuranceShop' =>
+  'ModulesBlockreassuranceShop' => 
   array (
     'Security policy (edit with Customer reassurance module)' => 'Política de seguridad (editar con el módulo Información de seguridad y confianza para el cliente)',
     'Delivery policy (edit with Customer reassurance module)' => 'Política de envío (editar con el módulo Información de seguridad y confianza para el cliente)',
     'Return policy (edit with Customer reassurance module)' => 'Política de devolución (editar con el módulo Información de seguridad y confianza para el cliente)',
   ),
-  'ModulesBrandlistAdmin' =>
+  'ModulesBrandlistAdmin' => 
   array (
     'Brand list' => 'Listado de marcas',
     'Displays a block listing product brands.' => 'Muestra un bloque con el listado de marcas de productos.',
@@ -5337,19 +5337,19 @@ Gracias por su paciencia.',
     'Number of elements to display' => 'Número de elementos a mostrar',
     'Only apply in plain-text mode' => 'Aplicar solamente en modo de texto plano',
   ),
-  'ModulesBrandlistShop' =>
+  'ModulesBrandlistShop' => 
   array (
     'All brands' => 'Todas las marcas',
     'Brands' => 'Marcas',
   ),
-  'ModulesCarriercomparisonAdmin' =>
+  'ModulesCarriercomparisonAdmin' => 
   array (
     'Shipping Estimate' => 'Estimación del envío',
     'Compares carrier choices before checkout.' => 'Permite comparar las diferentes opciones de los transportistas antes de entrar en el proceso de pago.',
     'How to refresh the carrier list?' => '¿Cómo actualizar el listado de transportistas?',
     'Automatically with each field change' => 'Automáticamente con cada cambio de campo',
   ),
-  'ModulesCarriercomparisonShop' =>
+  'ModulesCarriercomparisonShop' => 
   array (
     'Estimate the cost of shipping & taxes.' => 'Estimar los gastos de envío e impuestos.',
     'Country' => 'País',
@@ -5362,12 +5362,12 @@ Gracias por su paciencia.',
     'Update cart' => 'Actualizar carrito',
     'Estimate Shipping Cost' => 'Coste de envío estimado',
   ),
-  'ModulesCashondeliveryAdmin' =>
+  'ModulesCashondeliveryAdmin' => 
   array (
     'Cash on delivery (COD)' => 'Pago contra reembolso',
     'Accept cash on delivery payments' => 'Aceptar pagos contra reembolso',
   ),
-  'ModulesCashondeliveryShop' =>
+  'ModulesCashondeliveryShop' => 
   array (
     'Pay by Cash on Delivery' => 'Pago contra reembolso',
     'Your order on %s is complete.' => 'Su pedido en %s se ha completado.',
@@ -5377,7 +5377,7 @@ Gracias por su paciencia.',
     'customer support' => 'servicio de atención al cliente',
     'You pay for the merchandise upon delivery' => 'Usted paga la mercancía a la entrega',
   ),
-  'ModulesCategoryproductsAdmin' =>
+  'ModulesCategoryproductsAdmin' => 
   array (
     'Products in the same category' => 'Productos en la misma categoría',
     'Adds a block on the product page that displays products from the same category.' => 'Añade un bloque a la página del producto que muestra más productos de la misma categoría.',
@@ -5386,12 +5386,12 @@ Gracias por su paciencia.',
     'Show the prices of the products displayed in the block.' => 'Mostrar el precio de los productos mostrados en el bloque.',
     'Number of product to display' => 'Número de productos a mostrar',
   ),
-  'ModulesCategoryproductsShop' =>
+  'ModulesCategoryproductsShop' => 
   array (
     '%s other product in the same category:' => '%s otro producto en la misma categoría:',
     '%s other products in the same category:' => '%s otros productos en la misma categoría:',
   ),
-  'ModulesCategorytreeAdmin' =>
+  'ModulesCategorytreeAdmin' => 
   array (
     'Category tree links' => 'Enlaces del árbol de categorías',
     'Adds a block featuring product categories.' => 'Añdir un bloque que ofrezca categorías de productos',
@@ -5404,7 +5404,7 @@ Gracias por su paciencia.',
     'Maximum depth' => 'Profundidad máxima',
     'Set the maximum depth of category sublevels displayed in this block (0 = infinite).' => 'Establece la profundidad máxima de los subniveles de la categoría mostrados en este bloque (0 = infinito).',
   ),
-  'ModulesCheckpaymentAdmin' =>
+  'ModulesCheckpaymentAdmin' => 
   array (
     'Payments by check' => 'Pagos por cheque',
     'Are you sure you want to delete these details?' => '¿Estás seguro de querer eliminar estos datos?',
@@ -5422,7 +5422,7 @@ Gracias por su paciencia.',
     'If the client chooses this payment method, the order status will change to \'Waiting for payment\'.' => 'Si el cliente opta por esta forma de pago, el estado del pedido cambiará a "En espera del pago".',
     'You will need to manually confirm the order as soon as you receive a check.' => 'Por lo tanto, deberás validar manualmente el pedido tras la recepción del cheque.',
   ),
-  'ModulesCheckpaymentShop' =>
+  'ModulesCheckpaymentShop' => 
   array (
     'This payment method is not available.' => 'Este método de pago no está disponible.',
     'Please send us your check following these rules:' => 'Por favor, envíenos su cheque con las siguientes indicaciones:',
@@ -5444,7 +5444,7 @@ Gracias por su paciencia.',
     'Pay by check' => 'Pagar por cheque',
     '(order processing will be longer)' => '(el trámite del pedido tomará más tiempo)',
   ),
-  'ModulesContactformAdmin' =>
+  'ModulesContactformAdmin' => 
   array (
     'Contact form' => 'Formulario de contacto',
     'Adds a contact form to the "Contact us" page.' => 'Añade un formulario de contacto a la página "Contáctenos".',
@@ -5455,7 +5455,7 @@ Gracias por su paciencia.',
     'Receive customers\' messages by email' => 'Recibir los mensajes de los clientes por correo electrónico',
     'By default, you will only receive contact messages through your Customer service tab.' => 'De manera predeterminada, solo recibirá mensajes de contacto a través de la pestaña de Servicio al Cliente.',
   ),
-  'ModulesContactformShop' =>
+  'ModulesContactformShop' => 
   array (
     'Please select a subject from the list provided. ' => 'Por favor, seleccione un asunto de la lista proporcionada. ',
     'An error occurred during the file-upload process.' => 'Se ha producido un error durante el proceso de subida de archivos.',
@@ -5474,12 +5474,12 @@ Gracias por su paciencia.',
     'Message' => 'Mensaje',
     'Send' => 'Enviar',
   ),
-  'ModulesContactinfoAdmin' =>
+  'ModulesContactinfoAdmin' => 
   array (
     'Contact information' => 'Información de contacto',
     'Allows you to display additional information about your store\'s customer service.' => 'Te permite mostrar información adicional sobre el servicio de atención al cliente de tu tienda.',
   ),
-  'ModulesContactinfoShop' =>
+  'ModulesContactinfoShop' => 
   array (
     'Contact us' => 'Contacte con nosotros',
     'Call us: [1]%phone%[/1]' => 'Llámenos: [1]%phone%[/1]',
@@ -5490,7 +5490,7 @@ Gracias por su paciencia.',
     'Fax: %fax%' => 'Fax: %fax%',
     'Email: [1]%email%[/1]' => 'Email: [1]%email%[/1]',
   ),
-  'ModulesCrosssellingAdmin' =>
+  'ModulesCrosssellingAdmin' => 
   array (
     'Cross-selling' => 'Ventas cruzadas',
     'Adds a "Customers who bought this product also bought..." section to every product page.' => 'Añade una sección "Clientes que adquirieron este producto también compraron..." a cada página de producto.',
@@ -5501,16 +5501,16 @@ Gracias por su paciencia.',
     'Number of displayed products' => 'Número de productos mostrados',
     'Set the number of products displayed in this block.' => 'Establecer el número de productos que se muestran en este bloque.',
   ),
-  'ModulesCrosssellingShop' =>
+  'ModulesCrosssellingShop' => 
   array (
     'Customers who bought this product also bought:' => 'Los clientes que adquirieron este producto también compraron:',
   ),
-  'ModulesCurrencyselectorAdmin' =>
+  'ModulesCurrencyselectorAdmin' => 
   array (
     'Currency block' => 'Bloque de moneda',
     'Adds a block allowing customers to choose their preferred shopping currency.' => 'Añade un bloque que permite a tus clientes seleccionar su moneda preferida para comprar.',
   ),
-  'ModulesCustomeraccountlinksAdmin' =>
+  'ModulesCustomeraccountlinksAdmin' => 
   array (
     'My Account block' => 'Bloque Mi cuenta',
     'Displays a block with links relative to a user\'s account.' => 'Muestra un bloque con vínculos relativos a la cuenta del usuario.',
@@ -5518,20 +5518,20 @@ Gracias por su paciencia.',
     'Personal info' => 'Información personal',
     'Merchandise returns' => 'Devoluciones de mercancía',
   ),
-  'ModulesCustomersigninAdmin' =>
+  'ModulesCustomersigninAdmin' => 
   array (
     'Customer "Sign in" link' => 'Enlace de inicio de sesión para clientes',
     'Adds a block that displays information about the customer.' => 'Añade un bloque que muestra información sobre el cliente.',
     '%firstname% %lastname%' => '%firstname% %lastname%',
   ),
-  'ModulesCustomtextAdmin' =>
+  'ModulesCustomtextAdmin' => 
   array (
     'Custom text blocks' => 'Bloques de texto personalizados',
     'Integrates custom text blocks anywhere in your store front' => 'Integra bloques de texto personalizados en cualquier parte de tu tienda',
     'CMS block' => 'Bloque CMS',
     'Text block' => 'Bloque de texto',
   ),
-  'ModulesDashactivityAdmin' =>
+  'ModulesDashactivityAdmin' => 
   array (
     'Dashboard Activity' => 'Panel de Actividad',
     '(from %s to %s)' => '(desde %s hasta %s)',
@@ -5563,7 +5563,7 @@ Gracias por su paciencia.',
     'Unique Visitors' => 'Visitantes únicos',
     'Traffic Sources' => 'Fuentes de tráfico',
   ),
-  'ModulesDashgoalsAdmin' =>
+  'ModulesDashgoalsAdmin' => 
   array (
     'Dashboard Goals' => 'Panel de Objetivos',
     'Adds a block with your store\'s forecast.' => 'Añade un bloque con las previsiones de tu tienda.',
@@ -5589,7 +5589,7 @@ Gracias por su paciencia.',
     'Forecast' => 'Previsiones',
     'Conversion Rate' => 'Tasa de conversión',
   ),
-  'ModulesDashproductsAdmin' =>
+  'ModulesDashproductsAdmin' => 
   array (
     'Dashboard Products' => 'Panel de Productos',
     'Adds a block with a table of your latest orders and a ranking of your products' => 'Añade un bloque presentando en una tabla los últimos pedidos producidos en tu tienda y una clasificación de tus productos',
@@ -5618,7 +5618,7 @@ Gracias por su paciencia.',
     'to' => 'hasta',
     'Top %d most search terms' => 'Los %d términos más buscados',
   ),
-  'ModulesDashtrendsAdmin' =>
+  'ModulesDashtrendsAdmin' => 
   array (
     'Dashboard Trends' => 'Panel de tendencias',
     'Adds a block with a graphical representation of the development of your store(s) based on selected key data.' => 'Añade un bloque con la representación gráfica de la evolución de tu(s) tienda(s) basada en datos clave seleccionados.',
@@ -5636,7 +5636,7 @@ Gracias por su paciencia.',
     'Ecommerce Conversion Rate is the percentage of visits that resulted in an validated order.' => 'La Tasa de Conversión Ecommerce es el porcentaje de visitas que dió lugar a un pedido válido.',
     'Net profit is a measure of the profitability of a venture after accounting for all Ecommerce costs. You can provide these costs by clicking on the configuration icon right above here.' => 'El beneficio neto es una medida de la rentabilidad de una empresa después de considerar todos los costos Ecommerce. Puedes proporcionar estos costes haciendo clic en el icono de configuración justo encima de aquí.',
   ),
-  'ModulesDataprivacyAdmin' =>
+  'ModulesDataprivacyAdmin' => 
   array (
     'Customer data privacy block' => 'Bloque de privacidad de datos del cliente',
     'Adds a block displaying a message about a customer\'s privacy data.' => 'Añade un bloque que muestra un mensaje sobre la privacidad de los datos del cliente.',
@@ -5645,11 +5645,11 @@ Gracias por su paciencia.',
     'Tip: If the customer privacy message is too long to be written directly in the form, you can add a link to one of your pages. This can easily be created via the "Pages" page under the "Design" menu.' => 'Sugerencia: Si el mensaje sobre la privacidad de los datos del cliente es demasiado largo para ser escrito directamente en el formulario, puedes añadir un enlace a una de tus páginas. Esta puede ser creada fácilmente a través de la página "Páginas" bajo el menú "Diseño".',
     'The personal data you provide is used to answer queries, process orders or allow access to specific information. You have the right to modify and delete all the personal information found in the "My Account" page.' => 'Los datos personales que proporciona son utilizados para satisfacer sus necesidades, procesar pedidos o permitirle el acceso a una información específica. Usted tiene el derecho de modificar y eliminar toda la información personal que se encuentra en la página "Mi Cuenta".',
   ),
-  'ModulesDataprivacyShop' =>
+  'ModulesDataprivacyShop' => 
   array (
     'Customer data privacy[1][2]%message%[/2]' => 'Privacidad de los datos del cliente[1][2]%message%[/2]',
   ),
-  'ModulesDateofdeliveryAdmin' =>
+  'ModulesDateofdeliveryAdmin' => 
   array (
     'Date of delivery' => 'Fecha de entrega',
     'Displays an approximate date of delivery' => 'Muestra una fecha de entrega aproximada',
@@ -5684,7 +5684,7 @@ Gracias por su paciencia.',
     'Link list' => 'Lista de enlaces',
     'Add a new carrier rule' => 'Añadir una nueva regla de transportista',
   ),
-  'ModulesDateofdeliveryShop' =>
+  'ModulesDateofdeliveryShop' => 
   array (
     'Approximate date of delivery is between %1$s and %2$s' => 'Fecha aproximada de entrega con este transportista entre %1$s y %2$s',
     'with direct payment methods (e.g. credit card)' => 'con métodos de pago directos (ej.: tarjeta de crédito)',
@@ -5692,7 +5692,7 @@ Gracias por su paciencia.',
     'There are %s packages, that will be approximately delivered with the delivery option you choose between' => 'Hay paquetes %s, que serán enviados  aproximadamente con la opción de envío que elija entre',
     'and' => 'y',
   ),
-  'ModulesEmailsubscriptionAdmin' =>
+  'ModulesEmailsubscriptionAdmin' => 
   array (
     'Newsletter subscription' => 'Suscripción a nuestro boletín de noticias',
     'Adds a form for newsletter subscription.' => 'Añade un formulario para la suscripción al boletín de noticias.',
@@ -5733,7 +5733,7 @@ Gracias por su paciencia.',
     'No result found!' => '¡No se ha encontrado ningún resultado!',
     '-- Select associated page --' => '-- Seleccionar página asociada --',
   ),
-  'ModulesEmailsubscriptionShop' =>
+  'ModulesEmailsubscriptionShop' => 
   array (
     'This email address is not registered.' => 'Esta dirección de correo electrónico no está registrada.',
     'An error occurred while attempting to unsubscribe.' => 'Se ha producido un error al intentar darse de baja.',
@@ -5749,7 +5749,7 @@ Gracias por su paciencia.',
     'Newsletter' => 'Boletín',
     'Your e-mail' => 'Su dirección de correo electrónico',
   ),
-  'ModulesFacetedsearchAdmin' =>
+  'ModulesFacetedsearchAdmin' => 
   array (
     'Faceted search' => 'Búsqueda por facetas',
     'Displays a block allowing multiple filters.' => 'Muestra un bloque que permite múltiples filtros.',
@@ -5842,7 +5842,7 @@ Gracias por su paciencia.',
     'When the Faceted Search module is enabled, you can get more detailed URLs by choosing the word that best represent this feature\'s value. By default, PrestaShop uses the value\'s name, but you can change that setting using this field.' => 'Cuando el módulo de Búsqueda por facetas está activo, puedes obtener URLs más detalladas eligiendo la palabra que mejor represente este valor de característica. De forma predeterminada, PrestaShop utiliza el nombre del valor, pero puedes cambiar esa configuración mediante este campo.',
     'When the Faceted Search module is enabled, you can get more detailed page titles by choosing the word that best represent this feature\'s value. By default, PrestaShop uses the value\'s name, but you can change that setting using this field.' => 'Cuando el módulo de Búsqueda por facetas está activo, puedes obtener títulos de página más detallados eligiendo la palabra que mejor represente este valor de característica. De forma predeterminada, PrestaShop utiliza el nombre del valor, pero puedes cambiar esa configuración mediante este campo.',
   ),
-  'ModulesFacetedsearchShop' =>
+  'ModulesFacetedsearchShop' => 
   array (
     'Price' => 'Precio',
     'Weight' => 'Peso',
@@ -5857,7 +5857,7 @@ Gracias por su paciencia.',
     'Categories' => 'Categorías',
     'Relevance' => 'Relevancia',
   ),
-  'ModulesFeaturedproductsAdmin' =>
+  'ModulesFeaturedproductsAdmin' => 
   array (
     'Featured products' => 'Productos destacados',
     'Displays featured products in the central column of your homepage.' => 'Muestra los productos destacados en la columna central de tu página de inicio.',
@@ -5872,17 +5872,17 @@ Gracias por su paciencia.',
     'Randomly display featured products' => 'Mostrar los productos destacados aleatoriamente',
     'Enable if you wish the products to be displayed randomly (default: no).' => 'Activa esta opción si quieres que los productos se muestren de forma aleatoria (de manera predeterminada: no).',
   ),
-  'ModulesFeaturedproductsShop' =>
+  'ModulesFeaturedproductsShop' => 
   array (
     'Our Products' => 'Nuestros productos',
     'All products' => 'Todos los productos',
   ),
-  'ModulesFeederAdmin' =>
+  'ModulesFeederAdmin' => 
   array (
     'RSS products feed' => 'Fuente de productos RSS',
     'Generate a RSS feed for your latest products.' => 'Generar una fuente RSS para tus últimos productos.',
   ),
-  'ModulesGAnalyticsAdmin' =>
+  'ModulesGAnalyticsAdmin' => 
   array (
     'Google Analytics' => 'Google Analytics',
     'Gain clear insights into important metrics about your customers, using Google Analytics' => 'Utilizando Google Analytics obtendrás importantes métricas relacionadas con tus clientes',
@@ -5901,16 +5901,16 @@ Gracias por su paciencia.',
     'Merchants are able to understand how far along users get in the buying process and where they are dropping off.' => 'Los comerciantes pueden entender hasta qué punto llegan los usuarios en el proceso de compra y donde lo abandonan.',
     'Create your account to get started.' => 'Crea tu cuenta para comenzar.',
   ),
-  'ModulesGraphnvd3Admin' =>
+  'ModulesGraphnvd3Admin' => 
   array (
     'NVD3 Charts' => 'Diagramas NVD3',
   ),
-  'ModulesGridhtmlAdmin' =>
+  'ModulesGridhtmlAdmin' => 
   array (
     'Simple HTML table display' => 'Mostrar HTML simple',
     'Allows the statistics system to display data in a grid.' => 'Permite ver los datos del sistema de estadísticas en una cuadrícula.',
   ),
-  'ModulesImagesliderAdmin' =>
+  'ModulesImagesliderAdmin' => 
   array (
     'Image slider' => 'Carrusel de imágenes',
     'Adds an image slider to your site.' => 'Añade un carrusel de imágenes a tu tienda.',
@@ -5951,12 +5951,12 @@ Gracias por su paciencia.',
     'Slides list' => 'Lista de diapositivas',
     'Shared slide' => 'Diapositiva compartida',
   ),
-  'ModulesLanguageselectorAdmin' =>
+  'ModulesLanguageselectorAdmin' => 
   array (
     'Language selector block' => 'Bloque selector de idioma',
     'Adds a block allowing customers to select a language for your store\'s content.' => 'Añade un bloque que permite a los clientes seleccionar un idioma para el contenido de la tienda.',
   ),
-  'ModulesLegalcomplianceAdmin' =>
+  'ModulesLegalcomplianceAdmin' => 
   array (
     'Legal Compliance' => 'Cumplimento normativo legal',
     'This module helps merchants comply with applicable e-commerce laws.' => 'Este módulo ayuda a los comerciantes a cumplir con las leyes aplicables al comercio electrónico.',
@@ -6022,7 +6022,7 @@ Gracias por su paciencia.',
     'For each of the topics below, first indicate which of your Pages contains the required information:' => 'Para cada uno de los temas siguientes, primero indique cuál de sus Páginas contiene la información requerida:',
     'Add new Page' => 'Añadir nueva Página',
   ),
-  'ModulesLegalcomplianceShop' =>
+  'ModulesLegalcomplianceShop' => 
   array (
     'The order will only be confirmed when you click on the button \'Order with an obligation to pay\' at the end of the checkout!' => '¡El pedido solo se confirmará al hacer clic en el botón \'Pedido con obligación de pago\' en la última parte del proceso de compra!',
     'You must agree to our Terms of Service before going any further!' => '¡Debe aceptar los Términos del Servicio antes de continuar!',
@@ -6046,7 +6046,7 @@ Gracias por su paciencia.',
     'shipping excluded' => 'envío excluido',
     '(Under conditions)' => '(Bajo condiciones)',
   ),
-  'ModulesLinklistAdmin' =>
+  'ModulesLinklistAdmin' => 
   array (
     'Link List' => 'Lista de enlaces',
     'Adds a block with several links.' => 'Añade un bloque con múltiples enlaces.',
@@ -6072,12 +6072,12 @@ Gracias por su paciencia.',
     'Name' => 'Nombre',
     'URL' => 'URL',
   ),
-  'ModulesLinklistShop' =>
+  'ModulesLinklistShop' => 
   array (
     'Products' => 'Productos',
     'Our company' => 'Nuestra empresa',
   ),
-  'ModulesLivetranslationAdmin' =>
+  'ModulesLivetranslationAdmin' => 
   array (
     'Live translation' => 'Traducción en vivo',
     'Contribute to the translation of PrestaShop directly from your own shop and administration panel.' => 'Contribuye a la traducción del software de PrestaShop directamente desde el panel de administración de tu propia tienda.',
@@ -6094,11 +6094,11 @@ Gracias por su paciencia.',
     'Front office' => 'Front office',
     'Live translation cannot be enabled. The English Upside Down language is missing and cannot be installed. Please reset the module to try again. ' => 'No se pudo activar la traducción en vivo. No se pudo encontrar el idioma English Upside Down y no se pudo instalar. Reinicia el módulo para volver a intentarlo. ',
   ),
-  'ModulesLivetranslationShop' =>
+  'ModulesLivetranslationShop' => 
   array (
     'Live translation is enabled' => 'La traducción en vivo está activada',
   ),
-  'ModulesMailalertsAdmin' =>
+  'ModulesMailalertsAdmin' => 
   array (
     'Mail alerts' => 'Alertas por correo electrónico',
     'Sends e-mail notifications to customers and merchants regarding stock and order modifications.' => 'Envía notificaciones a clientes y comerciantes respecto a los cambios de stock y pedidos.',
@@ -6133,7 +6133,7 @@ Gracias por su paciencia.',
     'You must be logged in to manage your alerts.' => 'Debes iniciar sesión para gestionar tus alertas.',
     'No template found' => 'No se ha encontrado ninguna plantilla',
   ),
-  'ModulesMailalertsShop' =>
+  'ModulesMailalertsShop' => 
   array (
     'Your e-mail address is invalid' => 'Su dirección de correo electrónico no es válida',
     'You already have an alert for this product' => 'Ya tiene establecida una alerta para este producto',
@@ -6142,7 +6142,7 @@ Gracias por su paciencia.',
     'your@email.com' => 'su@email.com',
     'Notify me when available' => 'Notificarme cuando esté disponible',
   ),
-  'ModulesMainmenuAdmin' =>
+  'ModulesMainmenuAdmin' => 
   array (
     'Main menu' => 'Menú principal',
     'Adds a new menu to the top of your e-commerce website.' => 'Añade un nuevo menú en la parte superior de tu tienda.',
@@ -6179,7 +6179,7 @@ Gracias por su paciencia.',
     'Available items' => 'Elementos disponibles',
     'Remove' => 'Eliminar',
   ),
-  'ModulesNewproductsAdmin' =>
+  'ModulesNewproductsAdmin' => 
   array (
     'New products block' => 'Bloque de novedades',
     'Displays a block featuring your store\'s newest products.' => 'Muestra un bloque con los nuevos productos añadidos en tu tienda.',
@@ -6189,12 +6189,12 @@ Gracias por su paciencia.',
     'Define the number of products to be displayed in this block.' => 'Determina el número de productos que se mostrarán en este bloque.',
     'Number of days for which the product is considered \'new\'' => 'Número de días en los que el producto es considerado una \'novedad\'',
   ),
-  'ModulesNewproductsShop' =>
+  'ModulesNewproductsShop' => 
   array (
     'New products' => 'Novedades',
     'All new products' => 'Todas las novedades',
   ),
-  'ModulesNewsletterAdmin' =>
+  'ModulesNewsletterAdmin' => 
   array (
     'Newsletter' => 'Boletín',
     'Generates a .CSV file for mass mailings' => 'Genera un archivo .CSV para mailing masivo',
@@ -6220,7 +6220,7 @@ Gracias por su paciencia.',
     'Export customers' => 'Exportar clientes',
     'Export .CSV file' => 'Exportar archivo .CSV',
   ),
-  'ModulesPagesnotfoundAdmin' =>
+  'ModulesPagesnotfoundAdmin' => 
   array (
     'Pages not found' => 'Páginas no encontradas',
     'Adds a tab to the Stats dashboard, showing the pages requested by your visitors that have not been found.' => 'Añade una pestaña al panel de Estadísticas, mostrando las páginas solicitadas por tus visitantes que no se han encontrado.',
@@ -6241,7 +6241,7 @@ Gracias por su paciencia.',
     'Empty ALL "pages not found" notices for this period' => 'Vaciar TODAS las notificaciones de "páginas no encontradas" de este periodo',
     'Empty ALL "pages not found" notices' => 'Vaciar TODAS las notificaciones de "páginas no encontradas"',
   ),
-  'ModulesProductinfoAdmin' =>
+  'ModulesProductinfoAdmin' => 
   array (
     'Product tooltips' => 'Información emergente sobre producto',
     'Shows information on a product page: how many people are viewing it, the last time it was sold and the last time it was added to a cart.' => 'Muestra información del producto en la página: cuantas personas estan viendo éste, la última vez que se vendió y la última vez que se añadió a un carrito.',
@@ -6259,7 +6259,7 @@ Gracias por su paciencia.',
     'Do not display events older than' => 'No mostrar eventos anteriores a',
     'days' => 'días',
   ),
-  'ModulesPscleanerAdmin' =>
+  'ModulesPscleanerAdmin' => 
   array (
     'PrestaShop Cleaner' => 'Limpiador de Prestashop',
     'Check and fix functional integrity constraints and remove default data' => 'Comprobar y corregir las limitaciones de la integridad funcional y eliminar los datos predeterminados (prodcutos, pedidos, clientes)',
@@ -6285,7 +6285,7 @@ Gracias por su paciencia.',
     'Database cleaning' => 'Limpieza de la base de datos',
     'Clean & Optimize' => 'Limpiar y Optimizar',
   ),
-  'ModulesReminderAdmin' =>
+  'ModulesReminderAdmin' => 
   array (
     'Customer follow-up' => 'Retoma el contacto con tus clientes',
     'Follow-up with your customers by sending abandonment cart emails and other reminders.' => 'Retoma el contacto con tus clientes enviándoles mensajes de correo electrónico por sus carritos abandonados y otros recordatorios.',
@@ -6328,7 +6328,7 @@ Gracias por su paciencia.',
     'Conversion (%)' => 'Conversión (%)',
     'No statistics at this time.' => 'Ningún dato registrado por el momento',
   ),
-  'ModulesRssfeedAdmin' =>
+  'ModulesRssfeedAdmin' => 
   array (
     'RSS feed block' => 'Bloque de fuente RSS',
     'Adds a block displaying a RSS feed.' => 'Añade un bloque que muestra una fuente RSS.',
@@ -6347,20 +6347,20 @@ Gracias por su paciencia.',
     'Number of threads displayed' => 'Número de hilos mostrados',
     'Number of threads displayed in the block (default value: 5).' => 'Número de hilos que se muestran en el bloque (valor predeterminado: 5).',
   ),
-  'ModulesRssfeedShop' =>
+  'ModulesRssfeedShop' => 
   array (
     'No RSS feed added' => 'No se ha añadido ninguna fuente RSS',
   ),
-  'ModulesSearchbarAdmin' =>
+  'ModulesSearchbarAdmin' => 
   array (
     'Search bar' => 'Barra de búsqueda',
     'Adds a quick search field to your website.' => 'Añade un bloque con un campo de búsqueda rápida a tu tienda.',
   ),
-  'ModulesSearchbarShop' =>
+  'ModulesSearchbarShop' => 
   array (
     'Search' => 'Buscar',
   ),
-  'ModulesSekeywordsAdmin' =>
+  'ModulesSekeywordsAdmin' => 
   array (
     'Search engine keywords' => 'Palabras clave en los motores de búsqueda',
     'Displays which keywords have led visitors to your website.' => 'Muestra qué palabras claves han dirigido a los visitantes a tu tienda.',
@@ -6381,19 +6381,19 @@ Gracias por su paciencia.',
     'Top 10 keywords' => 'Las 10 palabras clave más buscadas',
     'Others' => 'Otras',
   ),
-  'ModulesSharebuttonsAdmin' =>
+  'ModulesSharebuttonsAdmin' => 
   array (
     'Social media share buttons' => 'Botones de compartir en redes sociales',
     'Displays social media sharing buttons (Twitter, Facebook, Google+ and Pinterest) on every product page.' => 'Muestra botones para compartir en redes sociales (Twitter, Facebook, Google+ y Pinterest) en cada página de producto.',
   ),
-  'ModulesSharebuttonsShop' =>
+  'ModulesSharebuttonsShop' => 
   array (
     'Share' => 'Compartir',
     'Tweet' => 'Tuitear',
     'Google+' => 'Google+',
     'Pinterest' => 'Pinterest',
   ),
-  'ModulesShoppingcartAdmin' =>
+  'ModulesShoppingcartAdmin' => 
   array (
     'Shopping cart' => 'Carrito de compra',
     'Adds a block containing the customer\'s shopping cart.' => 'Añade un bloque que contiene el carrito de compra del cliente.',
@@ -6401,7 +6401,7 @@ Gracias por su paciencia.',
     'Ajax cart' => 'Carrito Ajax',
     'Activate Ajax mode for the cart (compatible with the default theme).' => 'Activar el modo Ajax para el carrito (compatible con el tema predeterminado).',
   ),
-  'ModulesSocialfollowAdmin' =>
+  'ModulesSocialfollowAdmin' => 
   array (
     'Social media follow links' => 'Enlaces de seguimiento a través de las redes sociales',
     'Allows you to add information about your brand\'s social networking accounts.' => 'Permite añadir información en las redes sociales de tu marca.',
@@ -6422,7 +6422,7 @@ Gracias por su paciencia.',
     'Instagram URL:' => 'URL en Instagram:',
     'Your official Instagram account.' => 'Tu cuenta oficial en Instagram.',
   ),
-  'ModulesSocialfollowShop' =>
+  'ModulesSocialfollowShop' => 
   array (
     'Facebook' => 'Facebook',
     'Twitter' => 'Twitter',
@@ -6434,19 +6434,19 @@ Gracias por su paciencia.',
     'Instagram' => 'Instagram',
     'Follow us' => 'Síguenos',
   ),
-  'ModulesSpecialsAdmin' =>
+  'ModulesSpecialsAdmin' => 
   array (
     'Specials block' => 'Bloque de promociones especiales',
     'Displays your products that are currently on sale in a dedicated block.' => 'Muestra tus productos que están actualmente en oferta en un bloque dedicado.',
     'Products to display' => 'Productos a mostrar',
     'Define the number of products to be displayed in this block on home page.' => 'Define el número de productos que se mostrarán en este bloque en la página principal.',
   ),
-  'ModulesSpecialsShop' =>
+  'ModulesSpecialsShop' => 
   array (
     'On sale' => 'En oferta',
     'All sale products' => 'Todas los productos en oferta',
   ),
-  'ModulesStatsbestcategoriesAdmin' =>
+  'ModulesStatsbestcategoriesAdmin' => 
   array (
     'Empty recordset returned' => 'Se devolvió un conjunto de registros vacío',
     'Total Quantity Sold' => 'Cantidad total vendida',
@@ -6457,7 +6457,7 @@ Gracias por su paciencia.',
     'Adds a list of the best categories to the Stats dashboard.' => 'Añade un listado de las mejores categorías al Panel de control de Estadísticas.',
     'Display final level categories only (that have no child categories)' => 'Mostrar solo el nivel final de categorías (si no tiene categorías hijo)',
   ),
-  'ModulesStatsbestcustomersAdmin' =>
+  'ModulesStatsbestcustomersAdmin' => 
   array (
     'Empty recordset returned' => 'Se devolvió un conjunto de registros vacío',
     'Valid orders' => 'Pedidos válidos',
@@ -6472,13 +6472,13 @@ Gracias por su paciencia.',
     'Sustainable operations: loyalty points or cards, which not only justify communication between merchant and client, but also offer advantages to clients (private offers, discounts).' => 'Operaciones sostenibles: tarjetas clientes o puntos de fidelidad, que no sólo justifican la comunicación entre el comerciante y el cliente, sino que también ofrecen ventajas a los clientes (ofertas privadas exclusivas, descuentos).',
     'These operations encourage clients to buy products and visit your online store more regularly.' => 'Estas operaciones incitan a los clientes a comprar productos y visitar tu tienda con mayor regularidad.',
   ),
-  'ModulesStatsbestmanufacturersAdmin' =>
+  'ModulesStatsbestmanufacturersAdmin' => 
   array (
     'Total paid' => 'Total pagado',
     'Best brands' => 'Mejores marcas',
     'Adds a list of the best brands to the Stats dashboard.' => 'Añade una lista de las mejores marcas al Panel de control de Estadísticas.',
   ),
-  'ModulesStatsbestproductsAdmin' =>
+  'ModulesStatsbestproductsAdmin' => 
   array (
     'An empty record-set was returned.' => 'Se devolvió un conjunto de registros vacío.',
     'Price sold' => 'Precio de venta',
@@ -6487,20 +6487,20 @@ Gracias por su paciencia.',
     'Best-selling products' => 'Productos más vendidos',
     'Adds a list of the best-selling products to the Stats dashboard.' => 'Añade una lista de los productos más vendidos al Panel de control de Estadísticas.',
   ),
-  'ModulesStatsbestsuppliersAdmin' =>
+  'ModulesStatsbestsuppliersAdmin' => 
   array (
     'Total paid' => 'Total pagado',
     'Best suppliers' => 'Mejores proveedores',
     'Adds a list of the best suppliers to the Stats dashboard.' => 'Añade una lista de los mejores proveedores al Panel de control de Estadísticas.',
   ),
-  'ModulesStatsbestvouchersAdmin' =>
+  'ModulesStatsbestvouchersAdmin' => 
   array (
     'Empty recordset returned.' => 'Se devolvió un conjunto de registros vacío.',
     'Total used' => 'Total utilizado',
     'Best vouchers' => 'Mejores cupones de descuento',
     'Adds a list of the best vouchers to the Stats dashboard.' => 'Añade una lista de los mejores cupones de descuento al Panel de control de Estadísticas.',
   ),
-  'ModulesStatscarrierAdmin' =>
+  'ModulesStatscarrierAdmin' => 
   array (
     'Carrier distribution' => 'Distribución por transportista',
     'Adds a graph displaying each carriers\' distribution to the Stats dashboard.' => 'Añade un gráfico que muestra la distribución de cada transportista al Panel de control de Estadísticas.',
@@ -6508,7 +6508,7 @@ Gracias por su paciencia.',
     'No valid orders have been received for this period.' => 'No hay pedidos validados para este periodo.',
     'Percentage of orders listed by carrier.' => 'Porcentaje de pedidos por transportista.',
   ),
-  'ModulesStatscatalogAdmin' =>
+  'ModulesStatscatalogAdmin' => 
   array (
     'Catalog statistics' => 'Catálogo de estadísticas',
     'Adds a tab containing general statistics about your catalog to the Stats dashboard.' => 'Añade una pestaña que contiene estadísticas generales sobre tu catálogo en el Panel de Control de Estadísticas.',
@@ -6528,7 +6528,7 @@ Gracias por su paciencia.',
     'Products never purchased' => 'Productos nunca comprados',
     'Edit / View' => 'Modificar/Ver',
   ),
-  'ModulesStatscheckupAdmin' =>
+  'ModulesStatscheckupAdmin' => 
   array (
     'Catalog evaluation' => 'Evaluación del catálogo',
     'Adds a quick evaluation of your catalog quality to the Stats dashboard.' => 'Añade una evaluación rápida de la calidad del catálogo de tu tienda al Panel de Control de Estadísticas.',
@@ -6547,7 +6547,7 @@ Gracias por su paciencia.',
     'Desc.' => 'Desc.',
     'Global' => 'Global',
   ),
-  'ModulesStatsdataAdmin' =>
+  'ModulesStatsdataAdmin' => 
   array (
     'Data mining for statistics' => 'Explotación de datos para las estadísticas',
     'This module must be enabled if you want to use statistics.' => 'Este módulo debe estar activado si quieres utilizar las estadísticas.',
@@ -6558,7 +6558,7 @@ Gracias por su paciencia.',
     'Plugins detection' => 'Detección de plug-ins',
     'Plugins detection loads an extra 20 kb JavaScript file once for new visitors.' => 'La detección de plug-ins carga 20 kb adicionales al archivo JavaScript por cada nuevo visitante.',
   ),
-  'ModulesStatsequipmentAdmin' =>
+  'ModulesStatsequipmentAdmin' => 
   array (
     'Browsers and operating systems' => 'Navegadores y sistemas operativos',
     'Adds a tab containing graphs about web browser and operating system usage to the Stats dashboard.' => 'Añade una pestaña con gráficos acerca del uso del navegador web y el sistema operativo al Panel de control de Estadísticas.',
@@ -6571,7 +6571,7 @@ Gracias por su paciencia.',
     'Web browser used' => 'Navegador utilizado',
     'Operating system used' => 'Sistema operativo utilizado',
   ),
-  'ModulesStatsforecastAdmin' =>
+  'ModulesStatsforecastAdmin' => 
   array (
     'Stats Dashboard' => 'Panel de control de Estadísticas',
     'This is the main module for the Stats dashboard. It displays a summary of all your current statistics.' => 'Este es el módulo principal del Panel de control de Estadísticas. Este módulo muestra un resumen de todas tus estadísticas actuales.',
@@ -6612,7 +6612,7 @@ Gracias por su paciencia.',
     'Attribute distribution' => 'Distribución por atributos',
     'Quantity of products sold' => 'Cantidad de productos venidos',
   ),
-  'ModulesStatsliveAdmin' =>
+  'ModulesStatsliveAdmin' => 
   array (
     'Visitors online' => 'Visitantes en línea',
     'Adds a list of customers and visitors who are currently online to the Stats dashboard.' => 'Añade un listado de clientes y visitantes que están visitando tu tienda al Panel de control de Estadísticas.',
@@ -6630,7 +6630,7 @@ Gracias por su paciencia.',
     'Maintenance IPs are excluded from the online visitors.' => 'Las IPs de mantenimiento se excluyen de los visitantes conectados.',
     'Add or remove an IP address.' => 'Añadir o eliminar una dirección IP.',
   ),
-  'ModulesStatsnewsletterAdmin' =>
+  'ModulesStatsnewsletterAdmin' => 
   array (
     'Adds a tab with a graph showing newsletter registrations to the Stats dashboard.' => 'Añade una pestaña con un gráfico que muestra los últimos registros producidos en el boletín de noticias al Panel de control de Estadísticas.',
     'Customer registrations:' => 'Clientes suscritos:',
@@ -6640,7 +6640,7 @@ Gracias por su paciencia.',
     'The %s module must be installed.' => 'El módulo %s debe estar instalado.',
     'Newsletter statistics' => 'Estadísticas del Boletín de noticias',
   ),
-  'ModulesStatsoriginAdmin' =>
+  'ModulesStatsoriginAdmin' => 
   array (
     'Visitors origin' => 'Procedencia de los visitantes',
     'Adds a graph displaying the websites your visitors came from to the Stats dashboard.' => 'Añade un gráfico que muestra las webs desde las que provienen tus visitantes al Panel de control de Estadísticas.',
@@ -6657,7 +6657,7 @@ Gracias por su paciencia.',
     'Top ten referral websites' => 'Los diez sitios web de referencia',
     'Others' => 'Otras',
   ),
-  'ModulesStatspersonalinfosAdmin' =>
+  'ModulesStatspersonalinfosAdmin' => 
   array (
     'Registered customer information' => 'Información de clientes registrados',
     'Adds information about your registered customers (such as gender and age) to the Stats dashboard.' => 'Añade información sobre tus clientes registrados (como género y edad) al Panel de control de Estadísticas.',
@@ -6688,7 +6688,7 @@ Gracias por su paciencia.',
     'Currency distribution' => 'Distribución por moneda',
     'Language distribution' => 'Distribución por idioma',
   ),
-  'ModulesStatsproductAdmin' =>
+  'ModulesStatsproductAdmin' => 
   array (
     'Product details' => 'Detalles del producto',
     'Adds detailed statistics for each product to the Stats dashboard.' => 'Añade estadísticas detalladas para cada producto al Panel de control de Estadísticas.',
@@ -6711,7 +6711,7 @@ Gracias por su paciencia.',
     'Visits (x100)' => 'Visitas (x100)',
     'Stock' => 'Stock',
   ),
-  'ModulesStatsregistrationsAdmin' =>
+  'ModulesStatsregistrationsAdmin' => 
   array (
     'Customer accounts' => 'Cuentas cliente',
     'Adds a registration progress tab to the Stats dashboard.' => 'Añade una pestaña de progreso de registro al Panel de control de Estadísticas.',
@@ -6729,7 +6729,7 @@ Gracias por su paciencia.',
     'Design and user-friendliness are more important than ever in the world of online sales. An ill-chosen or hard-to-follow graphical theme can keep shoppers at bay. This means that you should aspire to find the right balance between beauty and functionality for your online store.' => 'El diseño y la accesibilidad son más importantes que nunca: una mala accesibilidad o un tema gráfico mal elegido, puede hacer que tus visitantes se vayan. Esto significa que tienes que encontrar pra tu tienda en línea, un equilibrio perfecto entre belleza y funcionalidad.',
     'CSV Export' => 'Exportar CSV',
   ),
-  'ModulesStatssalesAdmin' =>
+  'ModulesStatssalesAdmin' => 
   array (
     'Sales and orders' => 'Ventas y pedidos',
     'Adds graphics presenting the evolution of sales and orders to the Stats dashboard.' => 'Añade gráficas mostrando la evolución de ventas y pedidos en el Panel de control de Estadísticas.',
@@ -6750,7 +6750,7 @@ Gracias por su paciencia.',
     'Sales currency: %s' => 'Moneda de venta: %s',
     'Percentage of orders per status.' => 'Porcentaje de pedidos por estado.',
   ),
-  'ModulesStatssearchAdmin' =>
+  'ModulesStatssearchAdmin' => 
   array (
     'Shop search' => 'Búsquedas en la tienda',
     'Adds a tab to the Stats dashboard, showing which keywords have been searched by your store\'s visitors.' => 'Añade una pestaña al Panel de control de Estadísticas, mostrando qué palabras clave han sido buscadas por los visitantes de tu tienda.',
@@ -6762,7 +6762,7 @@ Gracias por su paciencia.',
     'Top 10 keywords' => 'Las 10 palabras clave más buscadas',
     'Others' => 'Otras',
   ),
-  'ModulesStatsstockAdmin' =>
+  'ModulesStatsstockAdmin' => 
   array (
     'Available quantities' => 'Cantidades disponibles',
     'Adds a tab showing the quantity of available products for sale to the Stats dashboard.' => 'Añade una pestaña que muestra la cantidad de productos disponibles para la venta en el Panel de control de Estadísticas.',
@@ -6774,7 +6774,7 @@ Gracias por su paciencia.',
     'Total value' => 'Valor total',
     'This section corresponds to the default wholesale price according to the default supplier for the product. An average price is used when the product has attributes.' => 'Esta sección corresponde al precio por mayor predeterminado de acuerdo con el proveedor predeterminado para el producto. Se utiliza un precio promedio cuando el producto tiene atributos.',
   ),
-  'ModulesStatsvisitsAdmin' =>
+  'ModulesStatsvisitsAdmin' => 
   array (
     'Visits and Visitors' => 'Visitas y Visitantes',
     'Adds statistics about your visits and visitors to the Stats dashboard.' => 'Añade estadísticas sobre las visitas y visitantes de tu tienda al Panel de control de Estadísticas.',
@@ -6790,7 +6790,7 @@ Gracias por su paciencia.',
     'CSV Export' => 'Exportar CSV',
     'Number of visits and unique visitors' => 'Número de visitas y visitantes únicos',
   ),
-  'ModulesSupplierlistAdmin' =>
+  'ModulesSupplierlistAdmin' => 
   array (
     'Supplier list' => 'Listado de proveedores',
     'Adds a block with a list of your product suppliers on your shop.' => 'Añade un bloque con un listado de tus proveedores en tu tienda.',
@@ -6802,17 +6802,17 @@ Gracias por su paciencia.',
     'Number of elements to display' => 'Número de elementos a mostrar',
     'Only apply in plain-text mode' => 'Aplicar solamente en modo de texto plano',
   ),
-  'ModulesSupplierlistShop' =>
+  'ModulesSupplierlistShop' => 
   array (
     'All suppliers' => 'Todos los proveedores',
     'Suppliers' => 'Proveedores',
   ),
-  'ModulesTrackingfrontAdmin' =>
+  'ModulesTrackingfrontAdmin' => 
   array (
     'Tracking - Front office' => 'Afiliados - Acceso al Front Office de tu tienda',
     'Enables your affiliates to access their own statistics. See Stats/Referrers.' => 'Permite a tus afiliados acceder a tus propias estadísticas. Véase Estadísticas/Referidos.',
   ),
-  'ModulesTrackingfrontShop' =>
+  'ModulesTrackingfrontShop' => 
   array (
     'Unique visitors' => 'Visitantes únicos',
     'Pages viewed' => 'Páginas vistas',
@@ -6849,7 +6849,7 @@ Gracias por su paciencia.',
     'Sign in' => 'Iniciar sesión',
     'Password' => 'Contraseña',
   ),
-  'ModulesViewedproductAdmin' =>
+  'ModulesViewedproductAdmin' => 
   array (
     'Viewed products block' => 'Bloque de productos vistos',
     'Adds a block displaying recently viewed products.' => 'Añade un bloque que muestra los productos vistos recientemente.',
@@ -6858,11 +6858,11 @@ Gracias por su paciencia.',
     'Products to display' => 'Productos a mostrar',
     'Define the number of products displayed in this block.' => 'Define el número de productos que se muestran en este bloque.',
   ),
-  'ModulesViewedproductShop' =>
+  'ModulesViewedproductShop' => 
   array (
     'Viewed products' => 'Productos más vistos',
   ),
-  'ModulesWelcomeAdmin' =>
+  'ModulesWelcomeAdmin' => 
   array (
     'Let\'s create your first product' => 'Vamos a crear su primer producto',
     'What do you want to tell about it? Think about what your customers want to know.' => '¿Qué quiere contar sobre el producto? Piense en lo que sus clientes quieren saber.',
@@ -6920,7 +6920,7 @@ Gracias por su paciencia.',
     'Step' => 'Paso',
     'Next' => 'Siguiente',
   ),
-  'ModulesWirepaymentAdmin' =>
+  'ModulesWirepaymentAdmin' => 
   array (
     'Wire payment' => 'Pagos por transferencia bancaria',
     'Accept payments by bank transfer.' => 'Aceptar pagos mediante transferencia bancaria.',
@@ -6944,7 +6944,7 @@ Gracias por su paciencia.',
     'If the client chooses to pay by bank wire, the order status will change to \'Waiting for Payment\'.' => 'Si el cliente elige pagar por transferencia bancaria, el estado del pedido cambiará a \'En espera de pago\'.',
     'That said, you must manually confirm the order upon receiving the bank wire.' => 'Por lo tanto, deberá confirmar el pedido en cuanto reciba la transferencia bancaria.',
   ),
-  'ModulesWirepaymentShop' =>
+  'ModulesWirepaymentShop' => 
   array (
     'Pay by bank wire' => 'Pago por transferencia bancaria',
     '(order processing will be longer)' => '(el trámite del pedido tomará más tiempo)',
@@ -6962,7 +6962,7 @@ Gracias por su paciencia.',
     'Please include these details' => 'Por favor, incluya estos detalles',
     'Bank name' => 'Nombre del banco',
   ),
-  'ShopDemoCatalog' =>
+  'ShopDemoCatalog' => 
   array (
     'S' => 'S',
     'M' => 'M',
@@ -7032,7 +7032,7 @@ Gracias por su paciencia.',
     'Styles' => 'Estilos',
     'Properties' => 'Propiedades',
   ),
-  'ShopFormsErrors' =>
+  'ShopFormsErrors' => 
   array (
     'Invalid postcode - should look like "%zipcode%"' => 'Código postal no válido - debe ser similar a "%zipcode%"',
     'Invalid name' => 'Nombre no válido',
@@ -7040,7 +7040,7 @@ Gracias por su paciencia.',
     'Required field' => 'Campo requerido',
     'Invalid format.' => 'Formato no válido.',
   ),
-  'ShopFormsHelp' =>
+  'ShopFormsHelp' => 
   array (
     '(E.g.: %date_format%)' => '(Ejemplo: %date_format%)',
     'Your password must be at least %min% characters long.' => 'Su contraseña debe tener como mínimo %min% caracteres.',
@@ -7054,7 +7054,7 @@ Gracias por su paciencia.',
     'optional' => 'opcional',
     'How can we help?' => '¿Cómo podemos ayudarle?',
   ),
-  'ShopFormsLabels' =>
+  'ShopFormsLabels' => 
   array (
     'Alias' => 'Alias',
     'Address' => 'Dirección',
@@ -7095,7 +7095,7 @@ Gracias por su paciencia.',
     'Optional' => 'Opcional',
     'Your email address' => 'Su dirección de correo electrónico',
   ),
-  'ShopNavigation' =>
+  'ShopNavigation' => 
   array (
     '404 error' => 'Error 404',
     'Best sales' => 'Los más vendidos',
@@ -7156,7 +7156,7 @@ Gracias por su paciencia.',
     'guest-tracking' => 'seguimiento-pedido-invitado',
     'order-confirmation' => 'confirmacion-pedido',
   ),
-  'ShopNotificationsError' =>
+  'ShopNotificationsError' => 
   array (
     'Invalid email/password combination' => 'Combinación dirección de correo electrónico/contraseña, incorrecta',
     'There seems to be an issue with your account, please contact support' => 'Parece que hay un problema con su cuenta, por favor, contacte con el soporte técnico',
@@ -7251,11 +7251,11 @@ Gracias por su paciencia.',
     'You already have the maximum quantity available for this product.' => 'Ya tiene la cantidad máxima disponible para este producto.',
     'There are not enough products in stock' => 'No hay suficientes productos en stock',
   ),
-  'ShopNotificationsInfo' =>
+  'ShopNotificationsInfo' => 
   array (
     'Please log in to your customer account to view the order' => 'Por favor, inicie sesión con su cuenta de cliente para ver el pedido',
   ),
-  'ShopNotificationsSuccess' =>
+  'ShopNotificationsSuccess' => 
   array (
     'Address successfully deleted!' => '¡Dirección eliminada correctamente!',
     'Address successfully updated!' => '¡Dirección actualizada correctamente!',
@@ -7267,7 +7267,7 @@ Gracias por su paciencia.',
     'Information successfully updated.' => 'Información actualizada correctamente.',
     'Your guest account has been successfully transformed into a customer account. You can now log in as a registered shopper.' => 'Su cuenta de invitado se ha transformado correctamente en una cuenta de cliente. Ahora puede iniciar sesión como un comprador registrado.',
   ),
-  'ShopNotificationsWarning' =>
+  'ShopNotificationsWarning' => 
   array (
     'You cannot place a new order from your country (%s).' => 'No puede realizar pedidos desde su país (%s).',
     'You do not have any vouchers.' => 'No tiene cupones de descuento.',
@@ -7278,7 +7278,7 @@ Gracias por su paciencia.',
     'You must wait for confirmation before returning any merchandise.' => 'Debe esperar nuestra confirmación antes de devolver la mercancía.',
     'You have not received any credit slips.' => 'No ha recibido ninguna factura por abono.',
   ),
-  'ShopPdf' =>
+  'ShopPdf' => 
   array (
     'Credit slip' => 'Factura por abono',
     'Supply order form' => 'Formulario de pedido de suministros',
@@ -7376,7 +7376,7 @@ Gracias por su paciencia.',
     'Tel: %s' => 'Tel: %s',
     'Fax: %s' => 'Fax: %s',
   ),
-  'ShopThemeActions' =>
+  'ShopThemeActions' => 
   array (
     'Add a new address' => 'Añadir nueva dirección',
     'Remove' => 'Eliminar',
@@ -7433,7 +7433,7 @@ Gracias por su paciencia.',
     'Subscribe' => 'Suscribirse',
     'Share' => 'Compartir',
   ),
-  'ShopThemeCatalog' =>
+  'ShopThemeCatalog' => 
   array (
     'Price' => 'Precio',
     'Regular price' => 'Precio base',
@@ -7535,7 +7535,7 @@ Gracias por su paciencia.',
     'All suppliers' => 'Todos los proveedores',
     'Customers who bought this product also bought:' => 'Los clientes que adquirieron este producto también compraron:',
   ),
-  'ShopThemeCheckout' =>
+  'ShopThemeCheckout' => 
   array (
     'My Address' => 'Mi Dirección',
     'Free' => 'Gratis',
@@ -7644,7 +7644,7 @@ Gracias por su paciencia.',
     'Total:' => 'Total:',
     'Cart' => 'Carrito',
   ),
-  'ShopThemeCustomeraccount' =>
+  'ShopThemeCustomeraccount' => 
   array (
     'Receive offers from our partners' => 'Recibir ofertas de nuestros socios',
     'Your account' => 'Su cuenta',
@@ -7730,7 +7730,7 @@ Gracias por su paciencia.',
     'Click the following link to track the delivery of your order' => 'Haga clic en el siguiente enlace para realizar un seguimiento de su pedido',
     'Your addresses' => 'Sus direcciones',
   ),
-  'ShopThemeGlobal' =>
+  'ShopThemeGlobal' => 
   array (
     'Undefined' => 'Indefinido',
     'Home' => 'Inicio',
@@ -7795,7 +7795,7 @@ Gracias por su paciencia.',
     'Previous' => 'Anterior',
     'Next' => 'Siguiente',
   ),
-  'messages' =>
+  'messages' => 
   array (
     'Add' => 'Añadir',
     'Edit' => 'Modificar',
