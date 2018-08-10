@@ -42,7 +42,7 @@
         </div>
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
-            <i class="material-icons d-inline">&nbsp;</i>
+            <i class="material-icons d-inline">&#xE5D2;;</i>
           </div>
           <div class="float-xs-right"></div>
           <div class="float-xs-right"></div>
