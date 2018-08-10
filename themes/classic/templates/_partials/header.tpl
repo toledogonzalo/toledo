@@ -44,8 +44,8 @@
           <div class="float-xs-left" id="menu-icon">
             <i class="material-icons d-inline">&#xE5D2;</i>
           </div>
-          <div class="float-xs-right"></div>
-          <div class="float-xs-right"></div>
+          <div class="float-xs-right">&nbsp;</div>
+          <div class="float-xs-right">&nbsp;</div>
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>
         </div>
